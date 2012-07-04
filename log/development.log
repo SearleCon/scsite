@@ -18398,3 +18398,909 @@ Served asset /wf.jpg - 304 Not Modified (2ms)
 
 Started GET "/assets/crm.jpg" for 127.0.0.1 at 2012-07-04 11:35:10 +0200
 Served asset /crm.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-07-04 12:24:52 +0200
+Processing by StaticPagesController#services as HTML
+  Rendered static_pages/services.html.erb within layouts/application (81.6ms)
+  Rendered layouts/_shim.html.erb (1.2ms)
+  Rendered layouts/_header.html.erb (92.7ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 930ms (Views: 929.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 12:24:56 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (6.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 12:24:56 +0200
+Served asset /custom.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 12:24:56 +0200
+Served asset /scname.png - 304 Not Modified (14ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 14:04:02 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (25.9ms)
+Compiled contact.css  (41ms)  (pid 4428)
+Compiled application.css  (90ms)  (pid 4428)
+Compiled contact.js  (172ms)  (pid 4428)
+Compiled application.js  (188ms)  (pid 4428)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 651ms (Views: 650.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 14:04:05 +0200
+Served asset /custom.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 14:04:05 +0200
+Served asset /scname.png - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 14:04:33 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 14:04:33 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 14:04:33 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 14:05:07 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 14:05:07 +0200
+Served asset /custom.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 14:05:07 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contactus" for 127.0.0.1 at 2012-07-04 14:05:13 +0200
+
+ActionController::RoutingError (No route matches [GET] "/contactus"):
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shaunsearle/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 14:05:18 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 14:05:18 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 14:05:19 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 14:05:52 +0200
+Processing by StaticPagesController#contact as HTML
+Completed 500 Internal Server Error in 44ms
+
+ActionView::MissingTemplate (Missing template static_pages/contact, application/contact with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/shaunsearle/RailsApps/scsite/app/views"
+):
+  actionpack (3.2.2) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.2) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.2) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.2) lib/action_view/renderer/template_renderer.rb:29:in `determine_template'
+  actionpack (3.2.2) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.2) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.2) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:109:in `_render_template'
+  actionpack (3.2.2) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.2) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.2) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.2) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+  activesupport (3.2.2) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.2) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.2) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:414:in `_run__60138256145911946__process_action__2314550305228969544__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.2) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.2) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.2) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.2) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.2) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.2) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:67:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:67:in `dispatch'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__3942845952144616400__call__1080214770711415743__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shaunsearle/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 14:18:28 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (26.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 243ms (Views: 242.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 14:18:30 +0200
+Served asset /custom.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 14:18:30 +0200
+Served asset /scname.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 14:18:39 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /contact.css - 200 OK (7ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /sessions.css - 200 OK (6ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /static_pages.css - 200 OK (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /users.css - 200 OK (7ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /custom.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /jquery_ujs.js - 200 OK (10ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-transition.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-alert.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-button.js - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-modal.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-scrollspy.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-collapse.js - 200 OK (7ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-carousel.js - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-dropdown.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-tab.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-tooltip.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-popover.js - 200 OK (7ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap-typeahead.js - 200 OK (7ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /bootstrap.js - 200 OK (70ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /contact.js - 200 OK (3ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /sessions.js - 200 OK (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /scname.png - 200 OK (0ms)
+
+
+Started GET "/assets/sc.png" for 127.0.0.1 at 2012-07-04 14:18:40 +0200
+Served asset /sc.png - 200 OK (3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 14:18:43 +0200
+Processing by StaticPagesController#contact as HTML
+Completed 500 Internal Server Error in 41ms
+
+ActionView::MissingTemplate (Missing template static_pages/contact, application/contact with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/shaunsearle/RailsApps/scsite/app/views"
+):
+  actionpack (3.2.2) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.2) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.2) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.2) lib/action_view/renderer/template_renderer.rb:29:in `determine_template'
+  actionpack (3.2.2) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.2) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.2) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:109:in `_render_template'
+  actionpack (3.2.2) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.2) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.2) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.2) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+  activesupport (3.2.2) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.2) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.2) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:414:in `_run__4559418338049550988__process_action__4514977147563855226__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.2) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.2) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.2) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.2) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.2) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.2) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:67:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:67:in `dispatch'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__3246522420658833753__call__3180282456263681940__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shaunsearle/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-07-04 14:30:14 +0200
+
+ActionController::RoutingError (No route matches [GET] "/contacts"):
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shaunsearle/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 14:30:17 +0200
+Processing by StaticPagesController#contact as HTML
+Completed 500 Internal Server Error in 9ms
+
+ActionView::MissingTemplate (Missing template static_pages/contact, application/contact with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/shaunsearle/RailsApps/scsite/app/views"
+):
+  actionpack (3.2.2) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.2) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.2) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.2) lib/action_view/renderer/template_renderer.rb:29:in `determine_template'
+  actionpack (3.2.2) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.2) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.2) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:109:in `_render_template'
+  actionpack (3.2.2) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.2) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.2) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.2) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+  activesupport (3.2.2) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.2) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.2) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:414:in `_run__4559418338049550988__process_action__4514977147563855226__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.2) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.2) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.2) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.2) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.2) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.2) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:67:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:67:in `dispatch'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__3246522420658833753__call__3180282456263681940__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shaunsearle/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (3.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 14:30:20 +0200
+Processing by StaticPagesController#contact as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template static_pages/contact, application/contact with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/shaunsearle/RailsApps/scsite/app/views"
+):
+  actionpack (3.2.2) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.2) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.2) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.2) lib/action_view/renderer/template_renderer.rb:29:in `determine_template'
+  actionpack (3.2.2) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.2) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.2) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:109:in `_render_template'
+  actionpack (3.2.2) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.2) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.2) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.2) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+  activesupport (3.2.2) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.2) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.2) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:414:in `_run__4559418338049550988__process_action__4514977147563855226__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.2) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.2) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.2) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.2) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.2) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.2) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.2) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.2) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.2) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:67:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:67:in `dispatch'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__3246522420658833753__call__3180282456263681940__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shaunsearle/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 14:31:07 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (275.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 392ms (Views: 384.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 14:31:08 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 14:31:08 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2012-07-04 14:31:57 +0200
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WnVbmK0b+Sbhtcp4gZKZViPVRFRyqzi53+7Md6DITgk=", "message"=>{"name"=>"Anton", "email"=>"A@example.com", "subject"=>"I hope you get his", "body"=>"Cause if you do, I'll be very happy.\r\n\r\nCheers,\r\nA"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.7ms)
+
+Sent mail to support@searleconsulting.co.za (30202ms)
+Date: Wed, 04 Jul 2012 14:31:59 +0200
+From: SearleCon@Gmail.com
+To: support@searleconsulting.co.za
+Message-ID: <4ff437bfa345d_11643ff3aabb0afc863e1@Shaun-Searles-MacBook-Air.local.mail>
+Subject: [Searle Consulting - Contact Us Notification] I hope you get his
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Anton
+
+Email: A@example.com
+
+Subject: I hope you get his
+
+Body: Cause if you do, I'll be very happy.
+
+Cheers,
+A
+Redirected to http://localhost:3000/
+Completed 302 Found in 31845ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 14:32:29 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 14:32:29 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 14:32:29 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 14:37:03 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 79ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 14:37:03 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 14:37:03 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 14:44:12 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (25.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 326ms (Views: 325.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 14:44:14 +0200
+Served asset /contact.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 14:44:14 +0200
+Served asset /contact.js - 304 Not Modified (4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 14:44:15 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (236.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 269ms (Views: 264.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 14:44:16 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 14:44:16 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2012-07-04 14:44:39 +0200
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WnVbmK0b+Sbhtcp4gZKZViPVRFRyqzi53+7Md6DITgk=", "message"=>{"name"=>"Shaun", "email"=>"s@s.com", "subject"=>"will this work? 2", "body"=>"I hope so!"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.8ms)
+
+Sent mail to shaun.searle@gmail.com (10464ms)
+Date: Wed, 04 Jul 2012 14:44:41 +0200
+From: SearleCon@Gmail.com
+To: shaun.searle@gmail.com
+Message-ID: <4ff43ab959882_15a23fff095a902c65563@Shaun-Searles-MacBook-Air.local.mail>
+Subject: [Searle Consulting - Contact Us Notification] will this work? 2
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Shaun
+
+Email: s@s.com
+
+Subject: will this work? 2
+
+Body: I hope so!
+Redirected to http://localhost:3000/
+Completed 302 Found in 11793ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 14:44:51 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 14:44:51 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 14:44:51 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 14:53:52 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (228.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 441ms (Views: 436.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 14:53:53 +0200
+Served asset /contact.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 14:53:53 +0200
+Served asset /contact.css - 304 Not Modified (2ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2012-07-04 14:54:57 +0200
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WnVbmK0b+Sbhtcp4gZKZViPVRFRyqzi53+7Md6DITgk=", "message"=>{"name"=>"Joe", "email"=>"Joe@example.com", "subject"=>"I want software written please", "body"=>"Not sure what though.\r\n"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.8ms)
+
+Sent mail to shaun@searleconsulting.co.za (10638ms)
+Date: Wed, 04 Jul 2012 14:54:58 +0200
+From: SearleCon@Gmail.com
+To: shaun@searleconsulting.co.za
+Message-ID: <4ff43d22902b7_15b03ff11b743ce45651d@Shaun-Searles-MacBook-Air.local.mail>
+Subject: [Searle Consulting - Contact Us Notification] I want software written
+ please
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Name: Joe
+
+Email: Joe@example.com
+
+Subject: I want software written please
+
+Body: Not sure what though.
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 11974ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 14:55:09 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 14:55:09 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 14:55:09 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
