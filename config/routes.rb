@@ -20,5 +20,6 @@ SampleApp::Application.routes.draw do
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
   match '/products', to: 'static_pages#products'
+  match '/services', to: 'static_pages#services'  
 
 end

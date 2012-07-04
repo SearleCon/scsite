@@ -1,11 +1,17 @@
 <% provide(:title, 'Products') %>
 <h1>Products</h1>
+<h2>Our online web apps offering</h2>
 
 <p>
-Note that clicking on any of the links below will send you to that product's own microsite.
-</p>
+Here is a list of our online, web based products that anyone can use.<br> 
+Most of the products are still currently under development, but the list will give you an idea of what we are currently working on for you and your business.
+<br><br>
+Note that clicking on any of the links below will send you to that product's own microsite. If you get redirected back here, it means we are not ready for you yet. But be sure to signup to our newsletter, and we will let you know as soon as they are available. <br><br>
+
+There is or will be a free version of each and every product, so make sure to go check them out!
+</p><br><br>
 <p>
-<%= link_to image_tag("sc.png", alt: "Rails"), 'http://searleconsulting.com/' %> <a href="http://railstutorial.org/help">SimpleCRM</a> - A CRM done differently!<br>
-<%= link_to image_tag("sc.png", alt: "Rails"), 'http://searleconsulting.com/' %> <a href="http://railstutorial.org/help">BnB</a> - A bed for every occasion!<br>
-<%= link_to image_tag("sc.png", alt: "Rails"), 'http://searleconsulting.com/' %> <a href="http://railstutorial.org/help">WrkFlo</a> - A worflow system with a difference!<br>
+<%= link_to image_tag("crm.jpg", alt: "Rails"), products_path %> <a href="<%= products_path %>">SimpleCRM</a> - A CRM done differently!<br>
+<%= link_to image_tag("bnb.jpg", alt: "Rails"), products_path %> <a href="<%= products_path %>">BnB</a> - A bed for every occasion!<br>
+<%= link_to image_tag("wf.jpg", alt: "Rails"), products_path %> <a href="<%= products_path %>">WrkFlo</a> - A workflow system with a difference!<br>
 </p>
