@@ -21,7 +21,7 @@ module SampleApp
     config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
       :port                 => 587,
-      :domain               => "localhost:3000",
+      :domain               => "https://blooming-galaxy-6415.herokuapp.com/",
       :user_name            => "searlecon@gmail.com",
       :password             => "searleconemail",
       :authentication       => :plain,
@@ -29,7 +29,7 @@ module SampleApp
     }
 
     config.action_mailer.default_url_options = {
-      :host => "localhost:3000"
+      :host => "https://blooming-galaxy-6415.herokuapp.com/"
     }
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
