@@ -1,4 +1,20 @@
 <%= form_for @message, :url => contact_path do |form| %>
+<h2>Get in contact with us:</h2>
+
+<h2><a href="mailto:Support@SearleConsulting.co.za">Support@SearleConsulting.co.za</a></h2>
+
+<h2>
+<a href="https://twitter.com/SearleCon" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @SearleCon</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+<a href="https://twitter.com/intent/tweet?screen_name=SearleCon" class="twitter-mention-button" data-size="large">Tweet to @SearleCon</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</h2>
+
+<h2>Or let us get back to you:</h2>
+
+
   <fieldset class="fields">
     <div class="field">
       <%= form.label :name %>
@@ -21,6 +37,6 @@
   </fieldset>
   
   <fieldset class="actions">
-    <%= form.submit "Send" %>
+    <%= form.submit "Send", class: "btn btn-large btn-primary" %>
   </fieldset>
 <% end %>

@@ -19304,3 +19304,2163 @@ Served asset /contact.css - 304 Not Modified (0ms)
 
 Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 14:55:09 +0200
 Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 15:37:27 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (22.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 232ms (Views: 231.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 15:37:29 +0200
+Served asset /contact.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 15:37:29 +0200
+Served asset /contact.js - 304 Not Modified (2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 15:37:32 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (244.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 277ms (Views: 273.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 15:37:32 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 15:37:32 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 15:38:05 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 15:38:05 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 15:38:05 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-07-04 15:38:11 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 102ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 15:38:11 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 15:38:11 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/aboutus.jpg" for 127.0.0.1 at 2012-07-04 15:38:11 +0200
+Served asset /aboutus.jpg - 200 OK (11ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 15:38:12 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 15:38:13 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 15:38:13 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-07-04 15:40:22 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 15:40:22 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 15:40:22 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 15:40:24 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 97ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 15:40:24 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 15:40:24 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 16:00:33 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:00:33 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:00:33 +0200
+Served asset /custom.css - 304 Not Modified (48ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:00:33 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:00:33 +0200
+Served asset /scname.png - 304 Not Modified (7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 16:01:39 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:01:39 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:01:39 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:01:39 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:01:39 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 16:01:48 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:01:48 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:01:48 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:01:48 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:01:48 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 16:04:05 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 41ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:04:05 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:04:05 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:04:05 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:04:06 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-07-04 16:04:19 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:04:19 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:04:19 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:04:19 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:04:19 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 16:04:23 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 59ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:04:23 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:04:23 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:04:23 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:04:24 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 16:04:26 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:04:26 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:04:26 +0200
+Served asset /custom.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:04:26 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:04:26 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-07-04 16:36:01 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (18.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 363ms (Views: 318.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:36:02 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:36:02 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:36:02 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:36:02 +0200
+Served asset /scname.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/aboutus.jpg" for 127.0.0.1 at 2012-07-04 16:36:02 +0200
+Served asset /aboutus.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 16:40:38 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:40:38 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:40:38 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:40:38 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:40:38 +0200
+Served asset /scname.png - 304 Not Modified (1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-07-04 16:55:34 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:34 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:55:34 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:34 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/aboutus.jpg" for 127.0.0.1 at 2012-07-04 16:55:34 +0200
+Served asset /aboutus.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:55:34 +0200
+Served asset /scname.png - 304 Not Modified (1ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Processing by StaticPagesController#services as HTML
+  Rendered static_pages/services.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 97ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apple.jpg" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /apple.jpg - 200 OK (17ms)
+
+
+Started GET "/assets/rails.jpg" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /rails.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/msc.jpg" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /msc.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/android.jpg" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /android.jpg - 200 OK (6ms)
+
+
+Started GET "/assets/php.jpg" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /php.jpg - 200 OK (6ms)
+
+
+Started GET "/assets/cloud.jpg" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /cloud.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/prince2.jpg" for 127.0.0.1 at 2012-07-04 16:55:36 +0200
+Served asset /prince2.jpg - 200 OK (4ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-07-04 16:55:38 +0200
+Processing by StaticPagesController#products as HTML
+  Rendered static_pages/products.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:38 +0200
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:55:38 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:38 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wf.jpg" for 127.0.0.1 at 2012-07-04 16:55:38 +0200
+Served asset /wf.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:55:38 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/crm.jpg" for 127.0.0.1 at 2012-07-04 16:55:38 +0200
+Served asset /crm.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/bnb.jpg" for 127.0.0.1 at 2012-07-04 16:55:38 +0200
+Served asset /bnb.jpg - 200 OK (5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 16:55:39 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 100ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:55:39 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:39 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:39 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:55:39 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-07-04 16:55:43 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:43 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:43 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:55:43 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:55:43 +0200
+Served asset /scname.png - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 16:55:51 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:51 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:51 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:55:51 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:55:51 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 16:55:54 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 78ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:54 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:55:54 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:55:54 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:55:54 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2012-07-04 16:59:32 +0200
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WnVbmK0b+Sbhtcp4gZKZViPVRFRyqzi53+7Md6DITgk=", "message"=>{"name"=>"Joe", "email"=>"Joe@example.com", "subject"=>"Test", "body"=>"Test"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.7ms)
+
+Sent mail to shaun@searleconsulting.co.za (8721ms)
+Date: Wed, 04 Jul 2012 16:59:34 +0200
+From: SearleCon@Gmail.com
+To: shaun@searleconsulting.co.za
+Message-ID: <4ff45a5626d8c_162c3fce95b741e096758@Shaun-Searles-MacBook-Air.local.mail>
+Subject: [Searle Consulting - Contact Us Notification] Test
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h1>Searle Consulting</h1>
+<h2>You have mail from the Contact Us form on your webpage!</h2>
+
+It is from someone named:
+Joe
+
+With the following email address:
+Email: Joe@example.com
+
+Subject: Test
+
+Body: Test
+Redirected to http://localhost:3000/
+Completed 302 Found in 10174ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 16:59:42 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 16:59:42 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 16:59:42 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 16:59:42 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 16:59:43 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:03:38 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 100ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:03:38 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:03:38 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:03:38 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:03:38 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2012-07-04 17:04:27 +0200
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WnVbmK0b+Sbhtcp4gZKZViPVRFRyqzi53+7Md6DITgk=", "message"=>{"name"=>"testy person", "email"=>"testy@example.com", "subject"=>"Hello", "body"=>"Just thought I would say hello,\r\nAs I am looking for some software done, and thought you may be able to help :)\r\nLet me know if you can!"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.9ms)
+
+Sent mail to shaun@searleconsulting.co.za (8168ms)
+Date: Wed, 04 Jul 2012 17:04:27 +0200
+From: SearleCon@Gmail.com
+To: shaun@searleconsulting.co.za
+Message-ID: <4ff45b7be68ec_162c3fce96023f60968f9@Shaun-Searles-MacBook-Air.local.mail>
+Subject: [Searle Consulting - Contact Us Notification] Hello
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Searle Consulting Email Alert!
+You have a new email from the Contact Us form on your webpage!
+
+It is from someone named:
+testy person
+
+With the following email address:
+testy@example.com
+
+The subject is
+Hello
+
+And here is what they had to say:
+Just thought I would say hello,
+As I am looking for some software done, and thought you may be able to help :)
+Let me know if you can!
+
+Please get back to them as soon as possible!
+Remember, Searle Consulting is all about customer service!
+
+Your friendly bot,
+SearleCon
+Redirected to http://localhost:3000/
+Completed 302 Found in 8186ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 17:04:36 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:04:36 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:04:36 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:04:36 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:04:36 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:05:46 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 100ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:05:46 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:05:46 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:05:47 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:05:47 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2012-07-04 17:06:17 +0200
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WnVbmK0b+Sbhtcp4gZKZViPVRFRyqzi53+7Md6DITgk=", "message"=>{"name"=>"Last Person test", "email"=>"test@example.com", "subject"=>"System", "body"=>"I \r\nam \r\nlooking\r\nfor \r\none!\r\n:)"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.8ms)
+
+Sent mail to shaun@searleconsulting.co.za (7671ms)
+Date: Wed, 04 Jul 2012 17:06:17 +0200
+From: SearleCon@Gmail.com
+To: shaun@searleconsulting.co.za
+Message-ID: <4ff45be9aa26a_162c3fce960ec3709693@Shaun-Searles-MacBook-Air.local.mail>
+Subject: [Searle Consulting - Contact Us Notification] System
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Searle Consulting Email Alert!
+You have a new email from the Contact Us form on your webpage!
+
+It is from someone named:
+Last Person test
+
+With the following email address:
+test@example.com
+
+The subject is
+System
+
+And here is what they had to say:
+I 
+am 
+looking
+for 
+one!
+:)
+
+---
+That is all I have for you at this time.
+
+Please get back to them as soon as possible!
+Remember, Searle Consulting is all about customer service!
+
+Your friendly bot,
+SearleCon
+Redirected to http://localhost:3000/
+Completed 302 Found in 7687ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 17:06:25 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:06:25 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:06:25 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:06:25 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:06:25 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:11:33 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:11:33 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:11:33 +0200
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:11:33 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:11:34 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:12:11 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (70.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 100ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:12:11 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:12:11 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:12:11 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:12:12 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:14:06 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:14:06 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:14:06 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:14:06 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:14:06 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:15:00 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 99ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:15:00 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:15:00 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:15:00 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:15:00 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:15:03 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:15:04 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:15:04 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:15:04 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:15:04 +0200
+Served asset /scname.png - 304 Not Modified (5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:19:07 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:19:08 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:19:08 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:19:08 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:19:08 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:19:26 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 101ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:19:27 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:19:27 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:19:27 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:19:27 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:19:48 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:19:48 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:19:48 +0200
+Served asset /contact.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:19:48 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:19:49 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:20:22 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:20:22 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:20:22 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:20:22 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:20:22 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:22:41 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 84ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:22:42 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:22:42 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:22:42 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:22:42 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:24:17 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:24:17 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:24:17 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:24:17 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:24:17 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:24:54 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:24:54 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:24:54 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:24:54 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:24:54 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:26:34 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (121.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 148ms (Views: 147.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:26:34 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:26:34 +0200
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:26:34 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:26:35 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:27:21 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 52ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:27:22 +0200
+Served asset /custom.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:27:22 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:27:22 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:27:22 +0200
+Served asset /scname.png - 304 Not Modified (1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:27:48 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:27:48 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:27:48 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:27:48 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:27:49 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:28:00 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:28:00 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:28:00 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:28:00 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:28:00 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:28:43 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:28:43 +0200
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:28:43 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:28:43 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:28:43 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:29:11 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 102ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:29:11 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:29:11 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:29:11 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:29:11 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:29:35 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:29:35 +0200
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:29:35 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:29:35 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:29:35 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-07-04 17:29:56 +0200
+Processing by StaticPagesController#products as HTML
+  Rendered static_pages/products.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:29:57 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:29:57 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:29:57 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:29:57 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-07-04 17:29:59 +0200
+Processing by StaticPagesController#services as HTML
+  Rendered static_pages/services.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 91ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:29:59 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:29:59 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:29:59 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:29:59 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-07-04 17:30:03 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:30:04 +0200
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:30:04 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:30:04 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/aboutus.jpg" for 127.0.0.1 at 2012-07-04 17:30:04 +0200
+Served asset /aboutus.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:30:04 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 17:30:06 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 25ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:30:06 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:30:06 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:30:06 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:30:06 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:38:54 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 100ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:38:55 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:38:55 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:38:55 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/email.jpg" for 127.0.0.1 at 2012-07-04 17:38:55 +0200
+Served asset /email.jpg - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/email.jpg"):
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shaunsearle/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shaunsearle/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:38:55 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:39:46 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:39:46 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:39:46 +0200
+Served asset /custom.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:39:46 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:39:46 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/email.jpg" for 127.0.0.1 at 2012-07-04 17:39:46 +0200
+Served asset /email.jpg - 200 OK (16ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 17:40:23 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:40:23 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:40:23 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:40:23 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:40:23 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-07-04 17:42:17 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (123.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 149ms (Views: 149.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 17:42:17 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 17:42:17 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 17:42:17 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 17:42:17 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 18:06:48 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (235.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (44.8ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 477ms (Views: 472.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:06:50 +0200
+Served asset /custom.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:06:50 +0200
+Served asset /contact.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:06:50 +0200
+Served asset /contact.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:06:50 +0200
+Served asset /scname.png - 304 Not Modified (5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 18:07:27 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (38.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:07:27 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:07:27 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:07:27 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:07:27 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 18:07:32 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:07:32 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:07:32 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:07:33 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:07:33 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-07-04 18:08:17 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:08:17 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:08:17 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:08:17 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/aboutus.jpg" for 127.0.0.1 at 2012-07-04 18:08:17 +0200
+Served asset /aboutus.jpg - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:08:17 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-07-04 18:08:20 +0200
+Processing by StaticPagesController#services as HTML
+  Rendered static_pages/services.html.erb within layouts/application (26.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 96ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:08:20 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:08:20 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:08:20 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apple.jpg" for 127.0.0.1 at 2012-07-04 18:08:20 +0200
+Served asset /apple.jpg - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:08:20 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.jpg" for 127.0.0.1 at 2012-07-04 18:08:20 +0200
+Served asset /rails.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/android.jpg" for 127.0.0.1 at 2012-07-04 18:08:20 +0200
+Served asset /android.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/msc.jpg" for 127.0.0.1 at 2012-07-04 18:08:20 +0200
+Served asset /msc.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/php.jpg" for 127.0.0.1 at 2012-07-04 18:08:20 +0200
+Served asset /php.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/prince2.jpg" for 127.0.0.1 at 2012-07-04 18:08:21 +0200
+Served asset /prince2.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cloud.jpg" for 127.0.0.1 at 2012-07-04 18:08:21 +0200
+Served asset /cloud.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-07-04 18:08:26 +0200
+Processing by StaticPagesController#products as HTML
+  Rendered static_pages/products.html.erb within layouts/application (25.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 54ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:08:26 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:08:26 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:08:26 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wf.jpg" for 127.0.0.1 at 2012-07-04 18:08:26 +0200
+Served asset /wf.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:08:26 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bnb.jpg" for 127.0.0.1 at 2012-07-04 18:08:26 +0200
+Served asset /bnb.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/crm.jpg" for 127.0.0.1 at 2012-07-04 18:08:26 +0200
+Served asset /crm.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 18:08:29 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 97ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:08:29 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:08:29 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:08:29 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:08:29 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 18:08:34 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:08:34 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:08:34 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:08:34 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:08:34 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-07-04 18:09:55 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 25ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:09:56 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:09:56 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:09:56 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:09:56 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/aboutus.jpg" for 127.0.0.1 at 2012-07-04 18:09:56 +0200
+Served asset /aboutus.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Processing by StaticPagesController#services as HTML
+  Rendered static_pages/services.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 98ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /scname.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rails.jpg" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /rails.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apple.jpg" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /apple.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android.jpg" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /android.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/msc.jpg" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /msc.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/php.jpg" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /php.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cloud.jpg" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /cloud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prince2.jpg" for 127.0.0.1 at 2012-07-04 18:09:58 +0200
+Served asset /prince2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-07-04 18:10:02 +0200
+Processing by StaticPagesController#products as HTML
+  Rendered static_pages/products.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 41ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:10:02 +0200
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:10:02 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:10:02 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wf.jpg" for 127.0.0.1 at 2012-07-04 18:10:02 +0200
+Served asset /wf.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bnb.jpg" for 127.0.0.1 at 2012-07-04 18:10:02 +0200
+Served asset /bnb.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/crm.jpg" for 127.0.0.1 at 2012-07-04 18:10:02 +0200
+Served asset /crm.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:10:02 +0200
+Served asset /scname.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 18:10:47 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:10:47 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:10:47 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:10:47 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:10:47 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-07-04 18:10:54 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 93ms (Views: 92.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:10:54 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:10:54 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:10:54 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:10:55 +0200
+Served asset /scname.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/aboutus.jpg" for 127.0.0.1 at 2012-07-04 18:10:55 +0200
+Served asset /aboutus.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-07-04 18:11:02 +0200
+Processing by StaticPagesController#services as HTML
+  Rendered static_pages/services.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:02 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:02 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:11:02 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:11:03 +0200
+Served asset /scname.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.jpg" for 127.0.0.1 at 2012-07-04 18:11:03 +0200
+Served asset /rails.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/msc.jpg" for 127.0.0.1 at 2012-07-04 18:11:03 +0200
+Served asset /msc.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apple.jpg" for 127.0.0.1 at 2012-07-04 18:11:03 +0200
+Served asset /apple.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/php.jpg" for 127.0.0.1 at 2012-07-04 18:11:03 +0200
+Served asset /php.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/android.jpg" for 127.0.0.1 at 2012-07-04 18:11:03 +0200
+Served asset /android.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cloud.jpg" for 127.0.0.1 at 2012-07-04 18:11:03 +0200
+Served asset /cloud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prince2.jpg" for 127.0.0.1 at 2012-07-04 18:11:03 +0200
+Served asset /prince2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 18:11:12 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 44ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:11:13 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:13 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:13 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:11:13 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-07-04 18:11:18 +0200
+Processing by StaticPagesController#products as HTML
+  Rendered static_pages/products.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 94ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:18 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:11:18 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:18 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:11:18 +0200
+Served asset /scname.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/wf.jpg" for 127.0.0.1 at 2012-07-04 18:11:18 +0200
+Served asset /wf.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bnb.jpg" for 127.0.0.1 at 2012-07-04 18:11:18 +0200
+Served asset /bnb.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/crm.jpg" for 127.0.0.1 at 2012-07-04 18:11:18 +0200
+Served asset /crm.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-07-04 18:11:25 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:25 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:11:25 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:25 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:11:25 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-07-04 18:11:29 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:29 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:29 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:11:29 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:11:30 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 18:11:33 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 87ms (Views: 86.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:33 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:11:33 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:11:33 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:11:33 +0200
+Served asset /scname.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-04 18:17:17 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-07-04 18:17:17 +0200
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-04 18:17:17 +0200
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-07-04 18:17:17 +0200
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-04 18:17:17 +0200
+Served asset /scname.png - 304 Not Modified (0ms)

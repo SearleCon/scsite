@@ -1,7 +1,23 @@
-Name: <%= @message.name %>
+Searle Consulting Email Alert!
+You have a new email from the Contact Us form on your webpage!
 
-Email: <%= @message.email %>
+It is from someone named:
+<%= @message.name %>
 
-Subject: <%= @message.subject %>
+With the following email address:
+<%= @message.email %>
 
-Body: <%= @message.body %>
+The subject is
+<%= @message.subject %>
+
+And here is what they had to say:
+<%= @message.body %>
+
+---
+That is all I have for you at this time.
+
+Please get back to them as soon as possible!
+Remember, Searle Consulting is all about customer service!
+
+Your friendly bot,
+SearleCon
