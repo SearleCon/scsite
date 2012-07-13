@@ -1,0 +1,54 @@
+<script>
+// Load this when the DOM is ready
+$(function(){
+  // You used .myCarousel here. 
+  // That's the class selector not the id selector,
+  // which is #myCarousel
+  // $('#myCarousel').carousel();
+  $('#myCarousel').carousel({ interval: 3000 })
+
+});
+</script>
+
+<div class="span12 columns">
+  <div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/1.jpg" alt="">
+        <div class="carousel-caption">
+          <h4>I.T. Consulting Services</h4>
+          <p>Outsourcing of a broad range of I.T. resources</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/2.jpg" alt="">
+        <div class="carousel-caption">
+          <h4>Apple Mobile Development</h4>
+          <p>For all iOS devices including iPad and iPhone</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/3.jpg" alt="">
+        <div class="carousel-caption">
+          <h4>Android Mobile Development</h4>
+          <p>For certain Android devices and OS versions</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/4.jpg" alt="">
+        <div class="carousel-caption">
+          <h4>Rich Web Apps</h4>
+          <p>We utilize the latest technology to deliver a great web app experience</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/5.jpg" alt="">
+        <div class="carousel-caption">
+          <h4>Cloud Computing Solutions</h4>
+          <p>Seamless integration between all your devices, via the cloud</p>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+ </div>

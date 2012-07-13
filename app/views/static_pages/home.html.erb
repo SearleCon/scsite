@@ -1,11 +1,6 @@
 <% provide(:title, 'Home') %>
 
-<!-- <h1><%= link_to image_tag("sc.png", alt: "Rails"), 'http://searleconsulting.com/' %></h1> -->
-
-<!-- Start WOWSlider.com HEAD section -->
-<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-<script type="text/javascript" src="engine1/jquery.js"></script>
-<!-- End WOWSlider.com HEAD section -->
+<%= render 'shared/carousel' %>
 
 <!-- Start This is for the share buttons -->
 <script type="text/javascript">var switchTo5x=true;</script>
@@ -13,28 +8,6 @@
 <script type="text/javascript">stLight.options({publisher: "ur-84d8d783-c4b3-63aa-165d-7c93ac957388"}); </script>
 <!-- End This is for the share buttons -->
 
-	<!-- Start WOWSlider.com BODY section -->
-	<div id="wowslider-container1">
-	<div class="ws_images"><ul>
-<li><img src="data1/images/1.jpg" alt="I.T. Consulting Services" title="I.T. Consulting Services" id="wows1_0"/>Outsourcing of a broad range of I.T. resources</li>
-<li><img src="data1/images/2.jpg" alt="Apple mobile development" title="Apple mobile development" id="wows1_1"/>For all iOS devices including iPad and iPhone</li>
-<li><img src="data1/images/3.jpg" alt="Android mobile development" title="Android mobile development" id="wows1_2"/>For certain Android devices and OS versions</li>
-<li><img src="data1/images/4.jpg" alt="Rich web apps" title="Rich web apps" id="wows1_3"/>We utilize the latest technology to deliver a great web app experience</li>
-<li><img src="data1/images/5.jpg" alt="Cloud computing solutions" title="Cloud computing solutions" id="wows1_4"/>Seamless integration between all your devices, via the cloud</li>
-</ul></div>
-<div class="ws_bullets"><div>
-<a href="#" title="I.T. Consulting Services"><img src="data1/tooltips/1.jpg" alt="I.T. Consulting Services"/>1</a>
-<a href="#" title="Apple mobile development"><img src="data1/tooltips/2.jpg" alt="Apple mobile development"/>2</a>
-<a href="#" title="Android mobile development"><img src="data1/tooltips/3.jpg" alt="Android mobile development"/>3</a>
-<a href="#" title="Rich web apps"><img src="data1/tooltips/4.jpg" alt="Rich web apps"/>4</a>
-<a href="#" title="Cloud computing solutions"><img src="data1/tooltips/5.jpg" alt="Cloud computing solutions"/>5</a>
-</div></div>
-<a class="wsl" href="http://wowslider.com">Photo Slideshow Software Review by WOWSlider.com v2.3.1m</a>
-	<div class="ws_shadow"></div>
-	</div>
-	<script type="text/javascript" src="engine1/wowslider.js"></script>
-	<script type="text/javascript" src="engine1/script.js"></script>
-	<!-- End WOWSlider.com BODY section -->
 
 <% if signed_in? %>
   <div class="row">
