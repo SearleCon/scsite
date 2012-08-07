@@ -23,7 +23,7 @@ module SampleApp
       :port                 => 587,
       :domain               => "https://blooming-galaxy-6415.herokuapp.com/",
       :user_name            => "searlecon@gmail.com",
-      :password             => "searleconemail",
+      :password             => "argitdyzrctfidai",
       :authentication       => :plain,
       :enable_starttls_auto => true
     }

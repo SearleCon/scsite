@@ -35165,3 +35165,282 @@ Served asset /users.js - 304 Not Modified (6ms)
 
 Started GET "/assets/scname.png" for 127.0.0.1 at 2012-07-18 09:26:14 +0200
 Served asset /scname.png - 304 Not Modified (8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-07 20:24:02 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_carousel.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (86.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (3.2ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 445ms (Views: 444.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /contact.css - 200 OK (5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /custom.css - 200 OK (11ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /sessions.css - 200 OK (8ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /static_pages.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-transition.js - 200 OK (8ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-alert.js - 200 OK (25ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-button.js - 200 OK (16ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-carousel.js - 200 OK (9ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-scrollspy.js - 200 OK (46ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-dropdown.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-modal.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-collapse.js - 200 OK (8ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-tab.js - 200 OK (7ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-tooltip.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-popover.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap-typeahead.js - 200 OK (8ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /bootstrap.js - 200 OK (28ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /contact.js - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /sessions.js - 200 OK (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /users.js - 200 OK (3ms)
+
+
+Started GET "/assets/scname.png" for 127.0.0.1 at 2012-08-07 20:24:05 +0200
+Served asset /scname.png - 200 OK (8ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-08-07 20:24:23 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 128ms (Views: 127.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sc-small.jpg" for 127.0.0.1 at 2012-08-07 20:24:23 +0200
+Served asset /sc-small.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/aboutus.jpg" for 127.0.0.1 at 2012-08-07 20:24:23 +0200
+Served asset /aboutus.jpg - 200 OK (9ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-08-07 20:24:25 +0200
+Processing by StaticPagesController#services as HTML
+  Rendered static_pages/services.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (6.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/php.jpg" for 127.0.0.1 at 2012-08-07 20:24:25 +0200
+Served asset /php.jpg - 200 OK (12ms)
+
+
+Started GET "/assets/cloud.jpg" for 127.0.0.1 at 2012-08-07 20:24:25 +0200
+Served asset /cloud.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/rails.jpg" for 127.0.0.1 at 2012-08-07 20:24:25 +0200
+Served asset /rails.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/android.jpg" for 127.0.0.1 at 2012-08-07 20:24:25 +0200
+Served asset /android.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/msc.jpg" for 127.0.0.1 at 2012-08-07 20:24:25 +0200
+Served asset /msc.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/apple.jpg" for 127.0.0.1 at 2012-08-07 20:24:25 +0200
+Served asset /apple.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/prince2.jpg" for 127.0.0.1 at 2012-08-07 20:24:25 +0200
+Served asset /prince2.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/sc.png" for 127.0.0.1 at 2012-08-07 20:24:25 +0200
+Served asset /sc.png - 200 OK (6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-08-07 20:24:26 +0200
+Processing by StaticPagesController#products as HTML
+  Rendered static_pages/products.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crm.jpg" for 127.0.0.1 at 2012-08-07 20:24:27 +0200
+Served asset /crm.jpg - 200 OK (7ms)
+
+
+Started GET "/assets/wf.jpg" for 127.0.0.1 at 2012-08-07 20:24:27 +0200
+Served asset /wf.jpg - 200 OK (6ms)
+
+
+Started GET "/assets/bnb.jpg" for 127.0.0.1 at 2012-08-07 20:24:27 +0200
+Served asset /bnb.jpg - 200 OK (5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-08-07 20:24:32 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (244.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (48.4ms)
+Completed 200 OK in 332ms (Views: 324.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-08-07 20:24:34 +0200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-07 20:24:38 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_carousel.html.erb (0.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (8.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-08-07 20:28:45 +0200
+Processing by ContactController#new as HTML
+  Rendered contact/new.html.erb within layouts/application (227.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 549ms (Views: 544.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2012-08-07 20:29:02 +0200
+Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GUojZpcaSmEj2/yVST1Sn9/OcXItrZK2ITC44sKyArg=", "message"=>{"name"=>"abc", "email"=>"abc@example.com", "subject"=>"abc", "body"=>"abc"}, "commit"=>"Send"}
+  Rendered notifications_mailer/new_message.text.erb (0.8ms)
+
+Sent mail to support@searleconsulting.co.za (9902ms)
+Date: Tue, 07 Aug 2012 20:29:04 +0200
+From: SearleCon@Gmail.com
+To: support@searleconsulting.co.za
+Message-ID: <50215e704d1e3_4603fee5814c70c40293@Shaun-Searles-MacBook-Air.local.mail>
+Subject: [Searle Consulting - Contact Us Notification] abc
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Searle Consulting Email Alert!
+You have a new email from the Contact Us form on your webpage!
+
+It is from someone named:
+abc
+
+With the following email address:
+abc@example.com
+
+The subject is
+abc
+
+And here is what they had to say:
+abc
+
+---
+That is all I have for you at this time.
+
+Please get back to them as soon as possible!
+Remember, Searle Consulting is all about customer service!
+
+Your friendly bot,
+SearleCon
+Redirected to http://localhost:3000/
+Completed 302 Found in 11562ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-07 20:29:14 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered shared/_carousel.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
