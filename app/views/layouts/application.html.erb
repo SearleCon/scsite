@@ -8,6 +8,28 @@
     <%= render 'layouts/shim' %>    
   </head>
   <body>
+	
+	<!-- SS Below - This is for the ZenDesk Support Tab -->
+	
+	<script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.5/zenbox.js"></script>
+	<style type="text/css" media="screen, projection">
+	  @import url(//assets.zendesk.com/external/zenbox/v2.5/zenbox.css);
+	</style>
+	<script type="text/javascript">
+	  if (typeof(Zenbox) !== "undefined") {
+	    Zenbox.init({
+	      dropboxID:   "20153156",
+	      url:         "https://searleconsulting.zendesk.com",
+	      tabID:       "Support",
+	      tabColor:    "black",
+	      tabPosition: "Left"
+	    });
+	  }
+	</script>
+	
+	<!-- SS Above - This is for the ZenDesk Support Tab -->
+
+	
     <%= render 'layouts/header' %>
     <div class="container">
       <% flash.each do |key, value| %>
